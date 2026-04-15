@@ -1,0 +1,501 @@
+Employee_ID,Age,Gender,City,Education_Level,Department,Experience_Years,Monthly_Salary,Projects_Completed,Training_Hours,Certifications,Work_Life_Balance,Job_Satisfaction,Manager_Rating,Overtime_Hours,Commute_Time_Min,Laptop_Issue_Count,Cafeteria_Rating,Internet_Stability,Last_Promotion_Years,Absenteeism_Days
+12001,43,Female,Delhi,Graduate,Operations,,110905,23,225,3,,2,2.9,64,45,2,1,Excellent,3.3,1
+12002,39,Male,Hyderabad,Post Graduate,HR,17.5,20977,26,86,3,3,5,2.8,65,80,4,4,Average,4.3,0
+12003,,Male,Delhi,Graduate,Finance,,133650,,246,0,1,,,25,111,6,2,Average,1.9,4
+12004,25,,Hyderabad,Graduate,Sales,14.1,72641,7,,1,5,3,4.9,30,134,9,2,Average,4.1,23
+12005,39,Male,,Post Graduate,Analytics,,132465,10,56,,2,3,4.3,50,99,1,4,Poor,7.1,2
+12006,54,Male,Delhi,Graduate,IT,9.9,72431,5,43,3,2,1,3.6,40,32,12,,,6.9,6
+12007,30,Female,Delhi,Graduate,Operations,14.5,34756,12,263,4,4,3,3.3,50,148,12,,Excellent,7.5,5
+12008,45,Male,Delhi,Post Graduate,HR,10.9,27796,32,275,4,4,1,3.6,18,63,5,4,Excellent,3.9,
+12009,22,Male,Kolkata,,Analytics,6,122583,31,76,0,2,4,3.4,72,133,3,4,,3.3,22
+12010,31,Female,Pune,Post Graduate,IT,10.3,99014,22,74,2,4,1,3.5,2,,1,5,Excellent,5.3,18
+12011,51,Female,Delhi,Graduate,Operations,9.8,38325,,224,5,1,4,2.6,37,5,0,3,Poor,3.3,19
+12012,35,Female,Mumbai,Post Graduate,Finance,14.9,,20,8,0,5,5,4.7,69,35,7,2,Poor,,13
+12013,29,Female,Mumbai,Post Graduate,,17.7,82649,20,294,,1,5,,44,26,4,2,Good,5.8,9
+12014,43,Female,Hyderabad,Graduate,Finance,7.7,26041,8,296,0,3,3,4,70,123,9,3,Good,2.2,1
+12015,39,Female,Chennai,Post Graduate,IT,13.9,58058,34,235,,2,1,4.8,40,,1,4,Excellent,0.4,10
+12016,,Male,Pune,Graduate,Operations,2.2,66263,23,84,3,1,4,2.9,24,120,7,3,,0.2,15
+12017,55,Female,Kolkata,Graduate,HR,14.1,122820,38,70,1,1,5,2.2,49,,2,,Poor,7.5,16
+12018,41,Other,Hyderabad,Graduate,Operations,7,125645,28,140,,4,5,4.5,0,,6,2,,2,4
+12019,29,Male,Mumbai,Graduate,IT,1.2,46223,,,4,4,5,5,53,91,1,1,Excellent,3.6,21
+12020,48,Male,Pune,,Analytics,6.9,51575,29,63,1,4,3,3.7,12,133,12,2,Poor,7.6,17
+12021,27,Male,Pune,Post Graduate,Analytics,11.2,39661,,270,2,3,5,2.2,39,128,6,2,,3.7,15
+12022,36,Male,Chennai,Diploma,Operations,,54432,11,,2,1,2,4.3,20,111,14,1,Poor,0.6,9
+12023,36,Male,Pune,Post Graduate,Operations,16.7,47114,18,206,,5,3,2.2,40,134,3,3,,4.4,5
+12024,53,Female,Delhi,Graduate,Finance,1.9,24030,25,241,1,4,1,,60,99,9,5,,0.7,21
+12025,24,Female,,PhD,IT,16.8,108051,22,,3,3,2,2.8,32,,0,4,Poor,0.8,23
+12026,24,Male,Chennai,PhD,Finance,12.9,65743,35,,4,3,3,4.7,72,23,4,4,Good,6.8,7
+12027,37,Male,Hyderabad,Graduate,HR,6.3,143756,,50,2,4,3,3.4,28,160,11,2,Excellent,2.3,5
+12028,57,Male,Chennai,Post Graduate,Analytics,,83615,21,247,4,2,4,4.7,,,13,1,Poor,5.4,22
+12029,49,Female,Kolkata,Diploma,Sales,13.5,65577,7,292,3,,2,2.9,31,23,11,2,Excellent,4.1,3
+12030,56,Male,Chennai,Post Graduate,Sales,,,12,164,0,4,2,,10,,12,,Average,1.8,
+12031,57,Male,Mumbai,,IT,12.3,,36,119,5,5,2,4.8,,120,13,3,Excellent,4.1,5
+12032,55,Male,Delhi,Graduate,IT,7.3,147356,24,118,5,1,,2.6,35,68,3,4,,0.6,14
+12033,27,Male,,Graduate,Sales,9,131838,32,130,5,3,5,,30,62,7,,Good,2.8,5
+12034,47,Male,,,IT,17.8,21728,,94,0,5,1,,,21,0,1,Good,4.2,18
+12035,48,Female,Bengaluru,Post Graduate,Analytics,4.2,99380,32,65,3,1,1,4.3,62,83,1,,,1.8,24
+12036,42,Female,Hyderabad,Post Graduate,HR,7.8,84130,32,106,1,5,,2.4,51,45,4,1,Good,5.3,19
+12037,34,Female,Delhi,Diploma,HR,5.6,39414,32,118,4,3,,3.3,53,9,9,4,Good,0.4,7
+12038,27,Male,Pune,Graduate,Finance,13.9,111005,26,,3,4,4,4.1,49,27,9,3,Excellent,,12
+12039,57,Female,Chennai,,,13.9,109742,11,,0,5,1,3.2,53,130,11,5,Average,5.7,3
+12040,42,Female,Bengaluru,Post Graduate,IT,,54973,18,187,2,4,3,2.2,,14,12,1,Poor,3.4,21
+12041,25,Male,Delhi,Post Graduate,IT,,105091,39,209,5,3,5,4.1,34,72,1,2,Good,7,16
+12042,22,Female,Mumbai,,Finance,,80235,5,,5,3,4,3.5,29,144,10,,Good,5.1,13
+12043,47,Male,Chennai,Post Graduate,Finance,8,47400,16,29,3,5,3,2,54,115,0,3,Poor,7.7,17
+12044,41,Female,Hyderabad,Post Graduate,IT,7.7,135240,11,238,5,5,3,3.8,0,142,5,2,Excellent,2.3,
+12045,35,Male,Mumbai,Post Graduate,IT,17.8,70763,35,20,,3,5,4.8,14,64,11,3,Excellent,7.5,21
+12046,41,Other,Delhi,Post Graduate,Analytics,8.7,124810,11,,3,5,2,2.3,24,131,12,1,Excellent,4.9,18
+12047,30,Male,Delhi,Graduate,Finance,5,107523,,112,3,5,4,3.8,19,34,12,2,Poor,6,10
+12048,43,Female,Hyderabad,Diploma,Analytics,16.1,127955,34,84,0,5,,4.2,70,118,11,3,Excellent,7.2,6
+12049,25,Female,Bengaluru,Post Graduate,Operations,,111137,17,80,,,2,2.2,15,156,9,4,Good,4.4,0
+12050,21,Female,Hyderabad,,IT,,48312,10,280,5,1,5,2.1,51,73,3,5,Excellent,6.9,2
+12051,33,Male,Pune,Graduate,Sales,2.2,131687,18,,3,,5,3.4,64,17,14,5,Good,4.3,
+12052,41,Male,,Post Graduate,Sales,7.2,127602,8,116,3,,3,4.4,69,13,4,2,Poor,4.8,
+12053,46,Female,Bengaluru,Graduate,Operations,17,54640,26,79,5,2,5,2.5,0,,2,4,Excellent,3.6,3
+12054,41,,,,IT,10.8,118171,3,218,1,4,2,4.5,15,167,14,,Excellent,,
+12055,38,Male,Kolkata,Post Graduate,Finance,6.5,80293,24,,,,3,4,26,136,9,3,Good,4.4,10
+12056,57,Female,Pune,Graduate,Sales,11.4,132124,3,145,4,5,,3,17,,5,2,Poor,7.8,6
+12057,52,Male,,Post Graduate,Finance,16.4,103802,38,,4,,2,3.5,76,30,3,4,Excellent,6.3,6
+12058,56,Male,Kolkata,Graduate,Sales,5.3,110024,2,235,5,1,3,4.9,43,,12,3,Poor,6,
+12059,37,Male,Kolkata,Post Graduate,Finance,9.3,129411,35,296,4,1,2,2.6,49,,5,4,Good,5.1,14
+12060,,Male,Mumbai,Graduate,Sales,17.3,60262,,32,0,1,1,3.5,73,174,12,2,,2.8,4
+12061,31,Female,Delhi,,Finance,3.5,134214,9,299,0,1,,3.9,13,14,4,4,Excellent,1.4,13
+12062,41,Female,Chennai,Graduate,,13.1,124435,36,95,1,1,3,2.4,,109,10,,Poor,1.8,12
+12063,46,Female,Hyderabad,Diploma,Analytics,11.3,104314,22,119,5,1,,2.1,74,110,1,4,Good,0.1,19
+12064,24,Female,Mumbai,PhD,Finance,,104287,31,163,0,1,1,2,49,5,3,5,Poor,5.4,21
+12065,54,,Pune,Graduate,Analytics,6.6,137318,34,262,5,1,1,3,,148,,1,Average,6.5,17
+12066,38,Male,,Post Graduate,Analytics,6,148134,24,,5,1,1,2.2,2,,4,2,Average,2.2,0
+12067,55,,Pune,Post Graduate,,12.5,142958,9,249,3,3,,4.4,61,145,2,5,Excellent,0.7,12
+12068,49,Male,Kolkata,,Operations,4.3,35528,,35,2,1,4,5,20,68,5,1,Poor,2.7,22
+12069,49,Female,Delhi,Graduate,Analytics,,18068,21,,2,4,3,2.2,32,82,14,4,Poor,2.3,19
+12070,41,Male,Delhi,Post Graduate,HR,3.8,87253,34,132,5,1,,3.3,0,,10,4,,3.6,6
+12071,33,Male,Chennai,Graduate,Analytics,0.6,98754,27,,,5,3,2.1,69,67,4,5,Poor,2.1,5
+12072,37,Male,Hyderabad,Graduate,Finance,17.5,108938,37,,,5,3,,,150,1,3,Poor,2.7,8
+12073,29,Female,Chennai,,Analytics,8.1,60129,7,,4,1,3,3,3,,13,2,Good,,9
+12074,21,Female,Delhi,Post Graduate,Finance,17.5,131996,22,182,4,1,1,3.2,21,96,9,1,,2.7,21
+12075,22,Male,Delhi,Graduate,Finance,3,79321,4,195,,5,1,4.8,76,127,10,4,Good,6.3,2
+12076,49,Female,Pune,Graduate,HR,10.8,29526,14,72,1,4,4,3.2,57,24,7,2,Average,5,6
+12077,53,Male,Delhi,Post Graduate,Analytics,,125535,34,271,0,2,3,3.5,43,68,5,,Poor,2.7,24
+12078,30,Male,Bengaluru,Post Graduate,,14.3,,23,274,0,3,5,2.7,56,80,8,,Poor,6.5,10
+12079,41,,Kolkata,Graduate,Sales,14.2,22213,25,132,4,,4,2,39,111,2,4,Excellent,4.8,11
+12080,,Male,Mumbai,Diploma,Sales,2.5,40797,1,268,5,1,1,,55,,13,2,Average,0.1,11
+12081,31,Female,Delhi,Graduate,IT,16.5,102946,,225,2,3,3,2.2,62,61,10,,Poor,0.5,
+12082,54,Other,Chennai,Graduate,Finance,,106918,32,246,3,1,1,4.9,38,49,3,2,Good,6,21
+12083,28,Female,Hyderabad,Diploma,HR,11.2,41655,14,248,,,2,2.4,6,124,10,2,Poor,3.6,22
+12084,42,Female,Kolkata,Graduate,,17.7,40555,21,,,2,1,3.8,13,90,,3,Excellent,3.2,7
+12085,28,Male,Kolkata,Graduate,Analytics,15.9,46071,,159,5,5,1,5,17,42,6,,,1.2,
+12086,35,Female,Hyderabad,Post Graduate,IT,17.2,38239,36,233,3,3,4,,54,168,7,5,Poor,1.3,20
+12087,37,Male,Hyderabad,Post Graduate,HR,6.5,141441,21,62,5,,2,3.3,55,71,8,3,Excellent,6.4,19
+12088,43,Female,Kolkata,Graduate,Operations,2.3,,12,285,3,2,5,4.3,56,,13,5,Average,6.6,
+12089,44,Female,Bengaluru,,Analytics,3.8,67151,15,49,4,1,5,2.1,57,130,7,,,4.5,
+12090,39,Female,Chennai,Post Graduate,Analytics,9.3,20203,15,106,,,5,4.1,24,15,7,,Good,2.4,22
+12091,25,Female,Bengaluru,Graduate,Operations,14.4,109663,17,52,2,4,3,2.2,69,102,5,2,Average,7.5,1
+12092,52,Male,Delhi,Post Graduate,Finance,3.1,147844,34,54,3,2,5,2.7,79,159,10,4,Good,5,21
+12093,21,Female,Mumbai,Graduate,Finance,12,30213,35,85,1,2,3,2.5,2,91,1,,Excellent,6.4,13
+12094,43,Female,Hyderabad,Graduate,Sales,,34944,39,63,,5,1,4.7,20,149,11,1,Average,0,17
+12095,57,Female,,,Sales,6.5,84723,38,165,,1,5,2.5,,126,6,2,Poor,3.6,9
+12096,28,Female,Hyderabad,Diploma,Analytics,12.1,86947,,107,3,,4,2.1,,102,3,5,,7,20
+12097,33,Male,Bengaluru,Graduate,Analytics,,53191,,278,5,2,2,3.8,,,2,,Average,2.7,0
+12098,28,Male,Pune,Graduate,Sales,14.7,90264,30,187,4,5,2,3,74,137,3,2,Poor,5.8,2
+12099,43,Female,Delhi,Post Graduate,Operations,3.2,117846,4,120,0,5,1,3.2,17,127,3,2,Excellent,5.3,
+12100,21,Female,Mumbai,Graduate,Sales,14.3,137550,15,271,4,5,2,2.4,53,,2,2,Excellent,1.2,3
+12101,44,Male,Delhi,Graduate,Analytics,1.6,102963,39,168,,3,2,,,66,8,4,Good,6.2,17
+12102,55,,Pune,Graduate,,3.9,18972,35,147,1,,1,3.8,35,69,13,,Good,0.9,
+12103,44,,Mumbai,Post Graduate,,12,117219,10,98,,5,1,3.1,75,129,2,2,Average,5.8,21
+12104,37,Female,Pune,Graduate,HR,15.5,67738,2,254,,3,1,2.5,60,94,1,2,,7.9,8
+12105,25,Male,Delhi,,HR,4.9,72777,24,244,0,1,4,3.8,59,48,,2,Excellent,7.7,21
+12106,40,Male,Bengaluru,Post Graduate,Analytics,6.2,32530,28,63,5,4,1,4.3,35,125,0,4,Excellent,6.4,18
+12107,41,Male,Kolkata,Post Graduate,IT,9.9,64529,22,19,,2,1,2.9,43,146,10,3,Average,4.3,1
+12108,51,,Delhi,Post Graduate,Sales,4.2,120895,32,289,2,3,1,2.1,67,,0,5,Good,5.4,8
+12109,56,Male,Delhi,Graduate,Finance,14.7,69714,31,207,3,4,5,2.6,65,61,4,2,Excellent,5.8,2
+12110,,Male,Delhi,Post Graduate,,14,142750,19,241,,4,5,4,43,52,11,2,Excellent,0.1,21
+12111,35,Male,Chennai,Graduate,HR,3,138883,,291,2,3,4,5,76,149,11,,Good,0.8,1
+12112,39,Female,Pune,Graduate,Analytics,,106196,3,,4,3,4,2,28,48,4,4,Poor,4.8,6
+12113,27,Female,Pune,,Sales,14.1,78385,6,218,2,3,2,2.9,47,136,11,3,Poor,0.1,16
+12114,48,Male,,Graduate,Operations,6.4,82736,32,,4,5,,2.2,,85,8,2,,7.3,
+12115,25,Other,Pune,Graduate,HR,11.6,48268,2,,4,1,4,2.9,7,101,3,2,Excellent,3.9,16
+12116,25,Male,Hyderabad,Graduate,,1.4,48138,24,207,,5,4,3.2,4,34,4,4,,2.1,8
+12117,50,Female,Chennai,Graduate,Finance,11.2,142650,,235,2,4,2,4.8,,125,12,5,Poor,3.2,0
+12118,,Female,Bengaluru,Graduate,Finance,3.2,31432,9,55,5,,1,2.2,46,89,5,5,Average,,0
+12119,28,Male,Hyderabad,Diploma,Operations,,85058,,61,,4,3,4.3,42,162,12,3,Average,7.4,
+12120,30,Male,Delhi,Graduate,IT,6.7,76175,14,136,1,3,2,3.2,9,150,9,,,0.9,
+12121,,Male,Bengaluru,Graduate,,5.4,51329,11,284,1,2,3,4.4,9,,6,2,Poor,6.2,7
+12122,,Male,Kolkata,Graduate,Operations,15.2,24677,14,229,5,5,2,3.5,5,102,8,4,Poor,4.6,18
+12123,37,Female,Chennai,Diploma,HR,1.4,68357,16,178,5,2,2,2.1,15,96,12,2,Good,4.7,3
+12124,51,Male,Pune,Post Graduate,Operations,7.4,73812,10,296,4,1,1,4.8,59,77,5,2,,,17
+12125,28,Male,Hyderabad,Graduate,Operations,7,59616,20,270,5,1,4,2.2,25,176,0,3,Poor,1.8,12
+12126,45,Male,Delhi,,,5.5,63534,16,251,0,5,5,3.8,20,35,7,5,Excellent,4.2,21
+12127,29,Male,Mumbai,Graduate,HR,16.5,82162,34,82,2,,2,4.6,,113,13,5,Average,2.6,6
+12128,22,Male,Kolkata,Graduate,Operations,13.6,62711,16,139,,1,1,,40,20,1,,Good,0.8,2
+12129,35,Male,Mumbai,Graduate,IT,1.6,113980,14,144,1,2,3,3.7,29,99,8,2,Excellent,0.8,13
+12130,23,Female,Bengaluru,Graduate,,13,38143,28,257,0,2,4,4.5,4,81,10,4,Good,1.1,8
+12131,56,Male,Pune,Graduate,Sales,9.7,126380,18,180,3,3,2,5,9,155,6,4,Poor,4.9,2
+12132,24,Male,,Post Graduate,Operations,16.3,59423,26,64,,4,3,4.2,10,146,6,2,Poor,0.8,6
+12133,,Female,Bengaluru,Graduate,Finance,6,59713,38,258,1,3,2,2.8,62,6,9,1,Poor,4.6,14
+12134,45,Male,Chennai,Post Graduate,IT,10.5,92310,,,0,,5,4.1,6,144,9,2,,,
+12135,30,Female,Bengaluru,Graduate,IT,9.3,20205,34,111,2,1,5,4.1,58,132,11,5,Poor,7.2,4
+12136,41,Female,Kolkata,Graduate,Operations,9.1,71266,7,175,1,3,4,4.1,11,96,4,2,Average,5,
+12137,56,Male,Bengaluru,Graduate,IT,8.5,99863,33,,3,3,3,4.6,63,28,7,1,Poor,7.9,2
+12138,32,Male,Kolkata,Diploma,Analytics,4.1,144233,35,294,1,5,5,2.3,40,41,9,2,Average,0.2,15
+12139,,,Bengaluru,Graduate,IT,13.7,20808,39,88,0,2,1,2.3,59,33,14,5,Excellent,5.6,15
+12140,22,Male,Delhi,Post Graduate,Sales,8.4,31851,,121,0,2,4,3.9,71,46,0,3,Good,0.2,
+12141,33,Male,Bengaluru,Graduate,Sales,,148982,28,,,5,2,4.9,27,22,2,4,Good,5.8,
+12142,52,Male,,Graduate,,5.1,32620,32,,4,2,,3.4,79,135,8,1,Average,3.1,8
+12143,51,,,,Analytics,12.4,80995,16,223,0,5,3,4.9,62,17,14,3,Excellent,4.9,
+12144,36,,Delhi,Graduate,Sales,,54681,,230,,2,1,4.8,2,110,0,,Average,2.5,0
+12145,52,Female,Delhi,Graduate,Operations,12.1,82509,23,275,,5,5,,31,161,10,3,Poor,1.3,16
+12146,52,Female,Chennai,Graduate,HR,15.7,85703,,106,3,2,3,4.7,20,63,7,,Poor,5.8,11
+12147,54,Male,Kolkata,Post Graduate,HR,15,60136,6,149,4,3,1,4.7,54,96,5,2,Poor,7.2,
+12148,31,Male,Pune,Graduate,HR,6.8,111699,33,,3,3,1,4.5,17,8,11,4,Good,1.5,21
+12149,30,Female,Mumbai,Post Graduate,Operations,11,106456,39,265,,2,2,4.1,,55,14,,Average,7.4,4
+12150,35,Female,Mumbai,Graduate,IT,3.2,101086,12,,,5,1,2.1,74,137,12,2,,1.1,14
+12151,37,Female,Bengaluru,Post Graduate,Operations,9.9,135529,36,18,0,3,4,,60,171,14,2,Average,5.9,12
+12152,38,Male,Chennai,Post Graduate,IT,4.5,36254,31,270,5,1,3,,49,45,9,4,Average,7.7,18
+12153,29,Female,Bengaluru,,HR,13.5,79273,10,291,5,,4,2.1,7,9,4,4,Average,1.2,2
+12154,45,Male,Mumbai,Graduate,Finance,9.7,135574,34,145,1,1,1,2.4,11,140,11,,Poor,3.5,1
+12155,34,Male,Kolkata,Post Graduate,Finance,7.7,132847,10,297,5,1,1,4.8,50,157,5,5,,2.7,12
+12156,45,Male,,PhD,IT,5.2,123547,11,35,1,4,4,,65,95,10,5,,3.1,6
+12157,42,Male,Kolkata,,,,30926,14,175,5,1,2,,40,56,4,2,Poor,6,
+12158,50,Male,Delhi,Graduate,,1.8,107527,,209,3,1,1,4.4,21,139,,5,Good,5.3,21
+12159,40,Male,Pune,PhD,Finance,,125387,,295,,4,4,3.5,8,51,8,1,,7.7,9
+12160,41,Female,Chennai,Graduate,IT,4.3,45563,7,115,,4,4,2.4,77,131,1,2,,1.5,
+12161,52,Female,Delhi,Post Graduate,Operations,17.5,18925,,72,2,4,3,4.7,78,86,9,1,Good,4.3,21
+12162,41,Male,Pune,Graduate,HR,17.6,69595,39,187,3,5,2,3,10,70,5,3,Average,3.6,
+12163,55,Male,Chennai,Graduate,Analytics,12,148249,,200,4,4,5,4.1,12,137,11,1,Average,7.4,10
+12164,52,Male,Chennai,,,15.9,34321,15,,1,5,4,2.9,55,176,3,3,,0.1,23
+12165,50,Female,Mumbai,Post Graduate,HR,4.2,34151,16,179,,2,,3.5,27,174,2,1,Excellent,7.9,
+12166,32,Male,Delhi,Graduate,Operations,17.5,94133,,266,,,5,4.4,63,65,11,3,Average,3.8,12
+12167,38,Other,Chennai,,,3,52187,4,,3,2,3,2.5,63,54,,,Good,5,15
+12168,41,Male,Hyderabad,,Sales,2.3,61835,4,159,5,4,3,4.9,69,170,1,2,,2.9,2
+12169,33,Male,Kolkata,Post Graduate,Sales,2.5,18059,,73,3,4,2,2.2,54,176,2,4,Poor,6.8,
+12170,41,Female,,Graduate,Operations,10.5,45235,27,112,2,2,1,3.6,36,156,6,4,Good,4.5,
+12171,28,Female,Pune,Post Graduate,Operations,14.2,112208,,39,4,3,2,4.7,32,132,11,2,Average,,20
+12172,27,Male,Mumbai,Post Graduate,Analytics,6.9,85114,22,48,1,5,5,4.8,24,67,0,3,Poor,,5
+12173,43,Male,Bengaluru,Post Graduate,Analytics,17.6,147191,17,147,5,1,2,2.7,22,171,1,4,Poor,2.9,9
+12174,52,Other,Kolkata,Post Graduate,HR,8.1,130831,34,215,4,4,1,2.4,59,144,2,4,Excellent,0.6,8
+12175,31,Male,Mumbai,Graduate,Finance,3.1,139889,32,289,4,5,,4.2,55,,9,1,Poor,6.5,17
+12176,,Female,Bengaluru,Post Graduate,Analytics,8.7,99583,6,10,4,5,2,2.1,62,13,12,5,Excellent,2.3,16
+12177,42,Male,Delhi,Post Graduate,HR,12.4,50160,33,222,,4,2,3.5,7,83,,2,Average,,
+12178,45,Female,Delhi,Graduate,IT,,117011,8,31,4,2,4,4.4,16,91,11,,Good,,1
+12179,42,Female,Chennai,Graduate,Sales,8.5,23277,36,,3,4,4,3.7,56,113,13,3,,2.8,10
+12180,48,Male,Hyderabad,Graduate,Finance,10.9,135101,5,288,0,,2,2.6,,26,6,1,Poor,4.8,17
+12181,49,Female,Delhi,Post Graduate,HR,5.2,78750,5,60,0,3,1,,61,40,3,4,Excellent,5.2,2
+12182,,Male,Chennai,Graduate,Operations,11.8,74902,10,109,,,1,4.8,10,78,11,1,Good,,13
+12183,38,Male,Kolkata,Post Graduate,IT,17.8,134849,7,22,5,4,1,3.9,66,160,7,2,Poor,6.6,19
+12184,22,Female,Mumbai,Diploma,Sales,1.4,115052,12,209,5,,1,4.2,,60,7,3,Average,1.3,
+12185,,Male,,Post Graduate,IT,,145894,30,,5,4,3,3,39,103,14,,Poor,7.6,22
+12186,41,Female,Mumbai,Diploma,,10.3,67460,25,93,5,5,,2.6,55,161,0,1,Excellent,3.3,16
+12187,35,Male,Mumbai,Diploma,Analytics,4.9,147424,28,78,3,5,2,2.8,,9,4,1,,6.9,21
+12188,47,Male,Hyderabad,Graduate,Sales,17.2,88975,13,161,5,1,3,3.6,27,8,0,4,,1.8,10
+12189,51,Male,Delhi,Post Graduate,IT,9,34568,22,270,1,2,1,2.8,,19,14,3,Excellent,,6
+12190,35,Male,Mumbai,Graduate,Analytics,6.3,80679,18,138,4,5,5,3.6,45,,12,4,Poor,4.6,
+12191,43,Male,Hyderabad,PhD,Finance,3.7,83781,27,93,0,2,5,4.1,17,27,12,,Excellent,2.6,2
+12192,44,Female,Hyderabad,Graduate,HR,4.8,26430,8,240,1,2,3,4.2,22,129,6,4,Poor,7.9,1
+12193,33,Female,Delhi,Diploma,HR,15.1,,6,136,5,4,5,2.5,,,12,4,Average,0.8,20
+12194,42,Female,Hyderabad,Post Graduate,Sales,11.3,48086,11,233,1,2,4,4.3,28,33,3,2,Average,0.4,15
+12195,57,Male,Delhi,Post Graduate,IT,,67671,29,38,0,5,2,,51,90,14,,Average,0.4,
+12196,53,Male,Delhi,Graduate,,4.6,21907,5,87,5,5,5,2,74,61,11,5,Average,1.7,10
+12197,23,Male,Bengaluru,Graduate,Operations,2.6,46604,7,136,1,,,2.2,45,66,7,,Average,4.6,13
+12198,39,Male,Mumbai,Post Graduate,,0.6,55869,22,,,2,2,3.9,,52,11,2,Good,4,
+12199,43,Male,Pune,Graduate,Operations,9.4,137261,4,291,3,3,4,3.2,62,115,7,4,,2.8,6
+12200,49,Male,Delhi,,Sales,18,132639,32,262,4,4,2,2.4,15,39,8,4,,,
+12201,,Male,Mumbai,Graduate,IT,12.7,129690,19,296,,3,2,2.1,,50,10,3,,1.9,12
+12202,45,Female,Kolkata,,Finance,5.9,143592,33,129,,2,5,2.5,61,37,5,,Good,1.5,18
+12203,57,Male,Hyderabad,Graduate,IT,15.8,24073,1,,,5,3,4.9,79,75,6,4,Poor,6,10
+12204,28,Male,Chennai,Post Graduate,HR,14.2,36101,,,3,4,5,4.2,15,14,14,3,,6.2,
+12205,36,Male,Delhi,Post Graduate,Operations,,112877,,179,2,,1,3.6,68,48,6,,Poor,6.2,18
+12206,28,Male,Hyderabad,,Analytics,,25313,30,84,4,4,,4.8,69,130,4,3,Poor,7.8,12
+12207,21,Female,Hyderabad,Graduate,HR,5.8,77668,28,111,,1,1,3.9,33,118,6,3,,7.1,21
+12208,25,Male,Hyderabad,,HR,3.1,109956,32,62,5,2,2,,79,,14,2,Excellent,4,16
+12209,23,Male,Hyderabad,Post Graduate,Operations,,133087,,95,,1,5,2.8,52,67,8,1,Average,,8
+12210,21,Male,Hyderabad,Post Graduate,Sales,8.7,137451,34,139,,3,1,3.8,22,53,11,1,Excellent,,18
+12211,24,Male,Delhi,Post Graduate,HR,7.9,110675,33,173,3,2,1,2.4,42,89,,1,Excellent,4.9,
+12212,55,Male,,,Finance,5.6,109634,13,126,1,1,1,3.2,43,,11,3,Poor,2.4,
+12213,52,,Pune,,,3.5,127119,25,240,,5,2,2.1,31,102,10,4,Poor,4.5,22
+12214,54,Female,Bengaluru,Graduate,Finance,13.8,,39,80,4,3,2,2.6,,,3,1,Poor,7.9,5
+12215,,Female,Hyderabad,Graduate,IT,17.8,100158,10,27,,,2,2.2,,111,12,4,Excellent,6.8,6
+12216,30,Male,Hyderabad,Graduate,,14.1,47715,31,77,2,2,1,3.2,18,155,1,5,,2.3,4
+12217,41,Female,,Diploma,Finance,5.7,106260,11,92,4,5,4,4.5,71,,7,1,,7.6,
+12218,47,Male,Kolkata,PhD,HR,4.8,44297,25,107,4,5,5,3.1,,110,6,3,Poor,7.9,13
+12219,,Male,Kolkata,Graduate,Sales,4.3,24307,34,,4,1,5,4.5,17,,5,2,Good,1.8,17
+12220,22,Female,Delhi,Post Graduate,Sales,2.9,76616,20,270,4,1,2,4,68,,6,3,Average,7.2,20
+12221,33,Male,Mumbai,Post Graduate,Finance,10.1,137828,7,257,3,1,1,,11,,11,4,Poor,7.1,24
+12222,29,Male,Chennai,Graduate,Finance,11.1,26727,33,62,2,4,4,2.7,9,80,2,5,Good,0.3,
+12223,56,Female,Chennai,Graduate,Analytics,12.8,35332,35,13,1,3,3,4.8,,24,5,3,Average,5.4,23
+12224,42,Male,Mumbai,Graduate,Analytics,12.4,131741,29,17,0,2,2,2.2,,66,9,2,Poor,2.4,
+12225,46,Female,Delhi,Post Graduate,Sales,5.6,74971,12,135,1,3,3,4.1,3,177,13,2,Poor,5.4,21
+12226,,Male,Chennai,Diploma,Operations,6.3,91042,5,226,,5,5,3.9,62,67,6,5,Good,7.3,7
+12227,37,Female,Kolkata,Post Graduate,Operations,12.4,113195,12,157,0,3,5,3.3,11,140,6,,,4,
+12228,34,Female,Bengaluru,Graduate,Analytics,,145144,29,,3,3,4,2.7,17,158,12,3,,3.3,24
+12229,34,Female,Mumbai,,HR,4.2,30996,35,24,5,1,4,,7,,12,3,Poor,7.4,13
+12230,54,Male,Kolkata,Post Graduate,IT,7.1,70485,20,85,2,5,3,4.6,31,96,4,2,Good,7.8,6
+12231,40,Male,Pune,Post Graduate,,5.3,65830,37,232,0,3,5,4.5,48,103,2,4,,0.5,5
+12232,31,Male,Delhi,Post Graduate,,2,52370,1,23,4,2,4,4.8,62,112,1,3,,,5
+12233,36,Male,Mumbai,Post Graduate,Analytics,15,75572,16,169,5,,4,2.9,,109,12,2,,0.7,11
+12234,51,Male,Chennai,,Finance,,47098,30,111,3,3,5,3.2,58,173,6,4,Good,2.7,21
+12235,26,Female,Delhi,Post Graduate,Sales,4.3,20196,,218,0,5,5,2.1,66,111,3,,,,14
+12236,39,Male,Bengaluru,Post Graduate,Analytics,1.6,67262,10,,4,2,1,4.8,38,106,1,1,Average,6.2,24
+12237,57,Other,Delhi,Graduate,HR,13.4,38543,,151,5,5,4,3,49,134,12,,Excellent,5.8,18
+12238,24,Male,Delhi,Post Graduate,Sales,4.2,,20,185,3,5,3,3.2,70,,7,2,Good,0.3,3
+12239,,,Bengaluru,Graduate,Sales,7.4,88540,29,202,5,5,2,4.7,25,131,1,1,Average,1.1,2
+12240,40,Male,Hyderabad,Graduate,Operations,1.6,58972,4,291,0,4,2,3.6,22,,5,2,Poor,7.5,12
+12241,30,Female,Bengaluru,Graduate,Finance,4.5,90613,28,57,,2,5,3.7,62,157,3,5,Average,0.7,24
+12242,44,Female,Kolkata,Graduate,Sales,14.4,113384,37,,2,5,3,2.5,65,55,8,3,Excellent,,15
+12243,55,Female,Delhi,Graduate,Finance,14.6,96062,13,294,3,4,1,,38,,4,,Good,6.7,
+12244,,Female,Bengaluru,Graduate,Analytics,4.1,21261,3,291,0,1,4,4.8,,68,3,4,Excellent,5.1,20
+12245,57,Male,Hyderabad,Post Graduate,,6.4,35046,37,,4,4,1,3.7,45,144,7,2,Excellent,2.8,9
+12246,41,Male,Kolkata,Post Graduate,HR,,31397,19,,2,1,3,2.8,14,79,2,2,,1.3,12
+12247,41,,Mumbai,Graduate,Sales,1.8,108805,,287,5,4,1,2.1,15,14,13,4,Good,,
+12248,30,,,Graduate,,17.9,43757,19,267,4,5,5,3,,103,12,3,Good,7.9,
+12249,24,Male,Bengaluru,Post Graduate,Analytics,12,136859,17,53,2,4,2,3.7,15,72,8,,Poor,0.4,7
+12250,40,Male,Delhi,Graduate,Operations,10,60399,18,204,0,4,5,2.1,38,174,7,5,Good,4.4,8
+12251,37,Female,Kolkata,Graduate,Operations,13.9,66330,18,64,4,5,4,3.8,10,70,13,3,,2.1,9
+12252,27,Other,Mumbai,PhD,Operations,15.2,86056,23,37,4,1,5,3.6,35,176,11,1,Excellent,6.7,
+12253,24,Female,Pune,Post Graduate,Finance,14.6,58832,9,248,1,5,3,4.4,17,32,13,1,Poor,2.8,2
+12254,49,Female,Pune,PhD,Operations,0.8,135095,29,176,3,2,3,2.1,22,111,11,2,Poor,5.7,4
+12255,34,Female,Chennai,Post Graduate,HR,3.8,,29,211,4,,4,4.3,76,,7,4,,4.3,2
+12256,23,Male,Bengaluru,Graduate,Finance,12,106672,2,287,2,2,4,3.6,48,115,9,2,Poor,4.3,17
+12257,44,Male,Bengaluru,Post Graduate,Analytics,7.1,53885,,26,3,5,2,,41,82,4,4,Good,6.9,18
+12258,57,Female,Mumbai,Graduate,,17.7,39157,31,51,0,5,1,4.9,43,,0,2,Good,3.8,
+12259,36,Female,Hyderabad,Graduate,,12.1,37674,28,162,3,3,2,2.5,0,,10,5,Excellent,6.8,8
+12260,,Male,Pune,Graduate,IT,,50357,39,,1,2,5,3.6,6,38,9,2,Poor,2.9,24
+12261,44,Female,Chennai,Post Graduate,Analytics,4,30578,30,147,0,,1,3,47,152,12,5,Average,1.4,23
+12262,54,Male,Mumbai,Graduate,Analytics,15.6,146457,35,51,4,2,4,3.6,15,51,8,,Excellent,3.6,
+12263,,Male,,Diploma,,6.1,121229,20,31,5,3,3,3.7,47,122,1,3,Good,4,
+12264,38,Female,Pune,PhD,Finance,,141981,,31,0,3,5,2.3,77,132,0,2,Good,3.8,24
+12265,,Male,Kolkata,Post Graduate,Operations,,55077,34,149,0,2,2,4,42,,,3,Good,6.5,9
+12266,51,Male,Chennai,Post Graduate,Operations,9.5,133136,,79,1,5,4,3.9,,,0,1,Average,4.5,1
+12267,39,Male,Delhi,Post Graduate,Operations,14.4,78530,,191,2,1,1,4.3,65,5,9,5,,,5
+12268,39,Female,,Post Graduate,Operations,,136179,20,14,0,5,1,2.3,30,101,9,4,Excellent,4.1,20
+12269,42,Male,Chennai,Graduate,Operations,8.7,45122,24,125,2,1,3,2.9,38,91,12,5,,1.8,
+12270,44,Female,Mumbai,Post Graduate,IT,17.8,47381,18,293,3,2,4,4,8,,9,2,Excellent,1,23
+12271,32,Female,Delhi,Post Graduate,Analytics,7.9,123614,9,,5,4,4,2.4,40,112,14,3,Good,6.9,7
+12272,,Male,Chennai,Diploma,Finance,11.1,131271,19,268,1,5,5,4,62,,6,3,,0.4,
+12273,51,Other,Chennai,Post Graduate,HR,1.5,115354,,165,4,3,5,2.2,13,146,13,1,Average,0.9,6
+12274,56,Male,Bengaluru,,Operations,15.2,145728,30,122,0,5,1,3,57,59,6,3,Good,0.5,17
+12275,39,Female,Hyderabad,Post Graduate,IT,,30822,26,267,5,2,2,4.5,73,133,12,,Poor,3.4,0
+12276,56,Male,,Post Graduate,,,129201,31,88,5,4,1,4.3,63,37,0,,,4.3,23
+12277,50,Female,Bengaluru,Post Graduate,Finance,0.8,45281,35,150,2,4,5,3.9,27,74,9,4,Excellent,0.2,
+12278,53,Male,Kolkata,Graduate,Finance,10.9,,,175,0,5,5,4.6,3,60,12,5,Average,4.1,13
+12279,38,Male,Delhi,Post Graduate,IT,0.7,114005,29,,5,5,5,,33,27,4,,,3.2,22
+12280,48,,Hyderabad,Diploma,HR,0.5,102403,6,153,1,,1,3.6,3,58,2,5,Average,6.2,19
+12281,31,Male,Chennai,Post Graduate,Operations,11.3,124023,1,255,4,2,,4.9,69,94,12,4,Average,,6
+12282,53,Female,Bengaluru,Post Graduate,Finance,3.8,40766,24,61,3,1,2,4.1,57,135,12,,Poor,5.5,19
+12283,37,Male,Hyderabad,,IT,3.9,111891,38,137,3,1,2,3.8,3,50,10,4,Average,3.8,6
+12284,26,Female,Kolkata,Post Graduate,Analytics,11.9,80239,,174,,3,5,3.2,49,138,11,1,Average,1.7,
+12285,24,Male,Pune,Post Graduate,IT,1.4,74764,7,,5,2,3,4.7,4,157,13,4,Good,6.8,24
+12286,40,Male,Kolkata,Post Graduate,IT,6,48858,,110,3,4,,2.9,74,21,1,3,Good,2.7,4
+12287,47,Female,,Graduate,IT,3.1,60850,11,175,,3,4,2,44,160,10,1,Average,2.9,22
+12288,35,Male,Mumbai,PhD,Finance,10.7,145171,,132,4,4,,2.6,,164,14,,Average,7.3,23
+12289,26,Female,Bengaluru,Post Graduate,,12.1,101017,20,254,,4,3,2.3,74,97,4,5,Good,7.8,20
+12290,34,Female,,Graduate,Analytics,13.1,68790,16,36,1,5,5,3,74,27,4,,Poor,7.2,0
+12291,31,Female,,Graduate,Finance,5,99120,5,220,4,4,3,4.5,26,148,1,5,Good,8,
+12292,29,Male,Bengaluru,Graduate,Analytics,2.1,27850,,266,4,,2,4,1,100,5,4,Good,7,2
+12293,46,Female,Delhi,Post Graduate,Sales,1.9,124759,30,248,,2,3,2.5,53,158,6,,,5.6,12
+12294,36,Female,,Graduate,IT,8,83696,30,289,,5,2,4.4,71,165,0,5,,2.4,6
+12295,25,Female,Delhi,Graduate,Operations,,105826,39,294,1,5,2,3.5,78,87,2,1,,7.6,5
+12296,30,Male,Hyderabad,Post Graduate,Operations,4.3,141152,37,267,0,3,1,3.5,47,59,3,4,Poor,7,5
+12297,23,Female,Kolkata,Graduate,Finance,5,25081,33,89,4,5,3,3.1,76,173,1,5,Excellent,1.9,1
+12298,33,Female,,,,2.3,120716,,49,5,1,,4.6,48,66,9,2,Good,3.9,15
+12299,50,Female,Delhi,Post Graduate,Finance,11.1,36722,22,,3,2,4,3,77,149,10,3,Good,0.6,5
+12300,26,Male,Chennai,Post Graduate,IT,,105508,21,205,4,,3,2.3,0,106,4,5,Poor,7.6,7
+12301,37,Male,Bengaluru,Post Graduate,HR,11.8,147752,37,172,0,1,1,2.9,32,63,12,1,Excellent,4.6,20
+12302,39,Female,Delhi,Graduate,HR,15.6,35985,27,244,,4,4,4.1,34,146,3,2,Average,2,24
+12303,55,Male,Hyderabad,Post Graduate,Analytics,,138234,38,290,0,1,5,4,53,153,10,5,Poor,2.3,
+12304,46,Female,Mumbai,Post Graduate,IT,2.9,101845,35,194,4,3,4,2.6,55,178,1,3,Good,7.8,17
+12305,25,Male,Mumbai,Graduate,Operations,5.6,141446,38,,4,5,1,2.3,14,59,14,4,,4.9,22
+12306,49,Male,Chennai,Graduate,IT,12.1,124747,6,149,,2,2,4,68,66,10,4,Poor,3.4,5
+12307,57,Male,,Graduate,Sales,11.2,40036,32,213,,3,,4,3,171,,4,Average,4,13
+12308,40,Male,Hyderabad,,HR,9.8,47346,16,212,3,1,2,3.1,63,174,7,,Poor,0.8,14
+12309,41,Female,Delhi,Post Graduate,Operations,12.5,131507,28,226,5,1,1,4.5,21,52,1,3,Poor,0.6,
+12310,30,Female,Delhi,Post Graduate,HR,11.7,132673,16,291,,3,2,4.9,23,107,3,3,Average,4.7,14
+12311,25,Female,Mumbai,Graduate,IT,15.9,44691,,167,4,3,2,2.6,46,32,11,5,Excellent,4.1,12
+12312,56,Male,Hyderabad,Graduate,,10.8,123578,3,76,0,3,1,3.7,74,88,9,4,Average,2.9,5
+12313,,Female,,Graduate,Analytics,14.1,35986,,244,,5,5,2,,138,4,2,Average,4.5,3
+12314,46,Female,Chennai,Post Graduate,IT,4.9,67665,,131,0,3,4,4.1,26,63,1,4,Excellent,0.6,13
+12315,24,Female,Mumbai,Graduate,Analytics,12.4,131408,,89,0,4,1,3.2,9,94,9,4,Average,7.6,12
+12316,55,Male,Mumbai,Post Graduate,Operations,16.3,91728,30,19,4,2,1,2.6,38,74,8,5,Excellent,2.3,9
+12317,21,Female,Chennai,Graduate,HR,,68054,22,252,0,,3,4.3,73,171,1,5,Excellent,0.6,24
+12318,44,Female,,Post Graduate,Sales,14.1,99499,,,,4,2,,36,64,5,,Excellent,1.4,21
+12319,56,Other,Delhi,PhD,Finance,13.2,117159,31,6,2,1,5,2.3,53,149,6,1,Good,0.8,11
+12320,26,Male,Bengaluru,Graduate,HR,1.5,84553,20,,1,1,3,2.1,50,172,5,1,,1.4,23
+12321,51,Female,Hyderabad,Post Graduate,Analytics,10.7,23279,19,68,4,1,5,3,59,70,10,2,,3.3,
+12322,40,Female,Kolkata,Diploma,IT,,25712,,265,2,1,,3.9,71,119,10,2,Poor,5.9,19
+12323,44,,Pune,Graduate,Operations,17.4,33817,,243,0,5,2,4.4,50,128,14,5,,2.2,4
+12324,45,Male,Pune,Post Graduate,HR,14.7,111616,27,,0,4,2,3.6,61,75,11,3,,3.5,
+12325,56,Male,Pune,Graduate,Sales,2.4,98667,8,205,1,2,4,3.7,48,48,12,,Good,7.4,
+12326,41,,Chennai,Post Graduate,Operations,2.6,44093,27,297,2,4,5,4.4,50,88,3,1,Poor,2.4,11
+12327,50,Male,Mumbai,Graduate,Analytics,10.9,129030,,290,2,2,5,3.6,27,61,0,1,Good,6.4,5
+12328,44,Female,Kolkata,Diploma,,6.5,135385,12,,4,1,3,3.8,35,40,1,4,,1.3,14
+12329,50,Female,Bengaluru,Post Graduate,Operations,1.1,47030,14,,0,5,1,3.5,24,61,14,5,Average,1.4,17
+12330,42,Female,Delhi,Post Graduate,IT,,62067,7,187,3,3,2,4.6,35,,11,3,,3.6,
+12331,48,Female,Pune,Post Graduate,Finance,7.3,94433,17,,4,3,2,2.7,76,175,9,5,Good,1.9,9
+12332,27,Male,Bengaluru,Post Graduate,Analytics,2.3,44639,26,,4,1,3,2.8,59,48,11,1,,,
+12333,55,Male,,Graduate,IT,14.5,18420,37,124,4,1,5,2.4,6,66,9,3,,0.4,9
+12334,48,Female,Kolkata,PhD,Finance,,37198,20,223,1,4,4,4.5,64,119,11,,Poor,4.8,4
+12335,34,Male,Pune,Diploma,IT,13.7,100951,10,164,1,5,5,3.2,72,87,13,,Good,4.8,15
+12336,30,Male,Delhi,Post Graduate,Finance,14.9,35875,19,113,4,5,4,3,35,65,5,1,Poor,0.5,18
+12337,36,Male,Hyderabad,Diploma,Finance,4.3,88511,18,242,5,4,4,4.9,72,98,7,4,Average,5.9,2
+12338,36,Male,Hyderabad,Post Graduate,Finance,5.1,109997,30,297,3,5,5,4.8,29,15,13,5,Average,3.8,
+12339,51,Female,Kolkata,Post Graduate,IT,,39331,30,71,2,5,2,,46,81,14,3,Excellent,5.8,18
+12340,45,Male,,Post Graduate,Operations,13.9,34893,,191,2,3,,2.4,28,124,2,5,,6.6,11
+12341,33,Male,Chennai,Graduate,,17.1,36243,24,,0,5,3,4.7,,165,6,4,,2.6,
+12342,26,Male,Mumbai,Graduate,Operations,,33535,10,53,2,1,3,3,64,106,14,1,,3.9,4
+12343,29,Female,Chennai,Graduate,Analytics,15.9,85394,,260,2,3,4,2,68,125,8,,Poor,2.1,1
+12344,56,Male,Bengaluru,Post Graduate,Sales,11.7,97214,38,111,3,1,2,3.2,62,,3,1,Poor,1.6,2
+12345,,Female,,Graduate,Operations,7.3,138295,32,12,2,1,4,3.5,55,70,10,,Good,0,13
+12346,38,Male,Bengaluru,Graduate,Sales,8,118369,35,240,3,4,,2.3,16,114,6,5,Good,7.7,14
+12347,41,Male,Bengaluru,Diploma,Finance,1.8,130695,37,182,,5,3,3.6,50,124,6,4,Good,3.5,
+12348,24,Male,Mumbai,Graduate,Sales,,31346,7,246,3,5,5,4.5,36,27,12,2,,0.1,12
+12349,53,Male,Delhi,Post Graduate,Sales,12.7,140580,7,,1,5,2,3.1,8,152,11,5,Average,0.1,16
+12350,47,Male,Kolkata,Graduate,Finance,8.2,93324,27,249,3,5,,3.1,37,19,9,4,Poor,2.3,19
+12351,27,Male,,Graduate,,10.2,120746,10,,4,3,1,3,52,34,8,,Average,0.1,3
+12352,26,Female,Kolkata,Post Graduate,Finance,10.3,92783,,260,5,2,,4.8,12,8,2,3,,3,18
+12353,35,Male,Hyderabad,Post Graduate,Analytics,5.4,34959,7,170,,1,5,2.1,52,68,10,5,Good,0.5,14
+12354,38,Female,,Post Graduate,HR,8.8,107343,6,82,1,,2,3.3,74,69,0,,Average,0.3,14
+12355,52,Male,Chennai,Graduate,IT,8.7,69150,,211,2,2,4,2.8,48,12,7,5,Poor,5.4,8
+12356,31,Male,Bengaluru,Post Graduate,Finance,7.3,39734,13,200,1,2,4,4.7,69,56,3,1,Good,7.3,
+12357,40,Male,Pune,Graduate,Finance,,35400,13,,3,3,4,2.3,,146,1,5,Excellent,3.3,1
+12358,44,Female,Pune,Graduate,Sales,8.4,116329,2,144,,2,,3.2,15,62,4,5,Poor,6.7,6
+12359,35,Male,Kolkata,Graduate,Analytics,11.1,142438,19,46,4,3,4,3.2,12,15,3,4,,0.2,8
+12360,27,Male,Bengaluru,Graduate,Sales,,115753,,213,,4,2,4.7,,63,0,2,Poor,6.2,21
+12361,,Male,Kolkata,Graduate,Operations,15.7,126863,38,77,3,4,1,2.6,1,28,11,,Good,0.5,4
+12362,46,Male,Mumbai,Graduate,Finance,,22746,2,157,3,4,3,3.9,18,92,6,3,Average,6.7,16
+12363,34,Male,Delhi,Diploma,Finance,5.2,,26,139,0,3,1,2.4,44,164,3,2,Poor,,2
+12364,57,Female,Mumbai,Graduate,Sales,,81184,6,268,1,3,3,4.9,45,,7,5,Excellent,6.3,
+12365,41,Male,Bengaluru,Graduate,Finance,5.1,106898,20,220,,1,5,3.8,46,32,,2,,6.6,7
+12366,38,Male,Bengaluru,Graduate,Operations,5.4,59835,,213,4,2,4,3.9,48,20,7,1,Poor,4.5,8
+12367,25,Female,Delhi,Post Graduate,HR,16.4,27133,15,208,5,5,5,3.3,78,46,0,2,,2.1,23
+12368,,Male,Kolkata,Graduate,IT,11.9,119345,6,114,0,,5,3,41,107,7,1,Poor,5.1,16
+12369,43,Male,Chennai,PhD,IT,1.9,58533,28,,3,2,3,2.6,32,20,4,2,Excellent,3.5,23
+12370,46,Male,Chennai,Diploma,IT,2.9,46725,35,16,1,5,,3.8,40,104,0,2,,0,7
+12371,,Female,Delhi,Graduate,HR,3.2,145240,11,131,4,5,4,4.9,68,144,8,,Average,3.8,20
+12372,44,Male,Chennai,Post Graduate,Finance,11.5,19236,8,198,0,5,5,3.1,18,38,8,3,,5.2,13
+12373,39,Male,Pune,Graduate,Sales,13.4,,24,144,3,3,1,4.6,38,,6,4,Average,0.1,21
+12374,45,Male,Chennai,Post Graduate,Analytics,15.5,123481,,31,,3,4,2.4,6,131,14,,Average,5,15
+12375,41,Female,Chennai,Graduate,Finance,17,146357,36,50,,3,2,4.8,38,179,6,1,,5.2,17
+12376,32,Male,,,HR,,32538,7,139,3,2,4,3.1,33,26,10,2,,1.3,16
+12377,53,Female,Pune,Graduate,Operations,,117821,5,62,3,4,5,3.1,43,84,0,,Poor,3.4,23
+12378,24,Female,Kolkata,Post Graduate,HR,4.7,,29,17,2,5,1,3.4,68,92,8,,,7.7,6
+12379,27,Female,Chennai,Graduate,IT,6.8,78784,16,104,4,1,5,4.2,67,7,0,5,,7.1,
+12380,42,Male,Hyderabad,Graduate,Finance,16.5,140547,6,53,,3,2,4.2,62,5,12,4,Excellent,3.3,14
+12381,53,Male,,Post Graduate,IT,10.6,136177,14,295,5,1,3,3.4,70,57,14,5,,,6
+12382,37,Male,Delhi,Post Graduate,Analytics,,108982,2,98,5,5,1,3.6,47,176,11,4,Poor,1,1
+12383,44,Male,Mumbai,PhD,Operations,9.1,62191,25,99,,4,2,2.1,2,,6,,,0.3,
+12384,54,Male,Delhi,Graduate,IT,,72112,31,,1,,2,2.9,33,170,8,,Poor,2.4,6
+12385,48,Female,Mumbai,Post Graduate,Analytics,1.6,29399,,76,5,5,5,3,8,119,8,,Excellent,7.5,18
+12386,42,Male,Delhi,Post Graduate,HR,9.9,122365,18,14,2,5,5,3.7,60,45,4,4,Excellent,7.7,
+12387,37,Male,Hyderabad,Graduate,IT,13.1,,17,166,,3,5,3.7,19,153,11,4,Excellent,,11
+12388,54,Female,Mumbai,,IT,4.3,105777,28,218,,4,,4.1,39,177,12,3,Poor,2.8,14
+12389,26,Female,Mumbai,Graduate,Sales,13.1,22487,12,8,2,5,4,4.2,11,145,5,2,Excellent,1.1,12
+12390,26,Male,Bengaluru,,Operations,,30018,35,,4,4,4,2.7,,70,1,4,Average,4.8,6
+12391,54,Female,Mumbai,Graduate,Operations,7.7,101220,22,,1,3,5,4.3,,47,1,1,Excellent,5.2,6
+12392,21,Male,Mumbai,Post Graduate,HR,13.6,61118,39,,5,1,5,2.1,73,93,9,1,,3.4,14
+12393,30,Female,Bengaluru,Graduate,Sales,7.6,77615,1,81,2,2,3,4.1,74,,8,3,Poor,5.5,3
+12394,41,Female,,Diploma,Analytics,12.4,97946,37,63,3,2,4,2.3,6,30,12,5,Poor,6,2
+12395,25,Female,Chennai,Graduate,Analytics,13.9,,,200,3,2,3,4.2,13,103,0,5,Poor,6.3,0
+12396,22,Female,Bengaluru,Diploma,,17.9,33105,1,111,,4,2,,18,65,9,5,Poor,4,
+12397,42,Male,Pune,Diploma,Operations,,119564,4,13,4,2,4,3.3,53,129,11,4,Average,6.3,
+12398,22,Male,Mumbai,,Analytics,7.7,65342,32,24,5,1,5,,59,123,11,5,Poor,0.2,0
+12399,30,Female,Mumbai,Post Graduate,HR,3.4,130016,1,153,2,5,1,2.1,66,,13,5,Good,5.4,4
+12400,54,Male,Bengaluru,Diploma,Analytics,4.1,78506,13,21,0,4,2,2.7,,86,4,2,,1.9,14
+12401,36,Female,Bengaluru,Graduate,Finance,12.6,42967,,16,2,1,1,3.8,40,146,13,4,Poor,2.2,3
+12402,42,Male,Pune,Graduate,IT,16.5,54023,12,86,2,,3,4.5,30,173,6,4,Poor,0.7,9
+12403,32,Male,Hyderabad,Post Graduate,Operations,,72288,7,71,5,4,3,3.1,38,141,11,1,Average,1.5,1
+12404,44,Male,Chennai,Graduate,Finance,3.6,,3,137,3,4,3,2.8,77,48,9,1,Good,7.9,
+12405,30,Male,,Graduate,HR,5.5,119541,26,57,4,3,5,3.6,51,60,5,2,Excellent,3.3,6
+12406,55,Female,Hyderabad,Graduate,HR,8.5,44622,31,210,2,5,3,,,7,5,3,Average,7.4,
+12407,52,Female,Kolkata,Graduate,Finance,5.6,63201,36,237,1,2,1,3.3,19,102,5,,Excellent,1.3,18
+12408,27,Female,Chennai,Graduate,IT,4.6,,,58,3,3,2,4.6,51,101,12,,Poor,1.6,5
+12409,41,Female,Mumbai,Graduate,IT,,72820,3,72,3,5,5,3.6,70,95,7,5,Good,4.5,14
+12410,40,,Kolkata,PhD,Sales,0.6,66709,28,295,2,2,2,2.1,61,63,6,4,Excellent,2.8,
+12411,46,Female,Hyderabad,Post Graduate,Analytics,9.9,106232,17,173,5,3,3,,,77,4,4,Good,5.2,11
+12412,24,Male,Bengaluru,Graduate,Sales,14.4,100418,,165,1,3,4,3.4,56,145,9,4,Excellent,3.4,10
+12413,42,Female,Pune,,IT,5.2,115739,,19,2,1,,4.1,3,162,1,1,Average,6.5,2
+12414,35,Male,Chennai,,Finance,11.1,73214,2,195,1,3,,2.7,10,,9,2,,3.5,19
+12415,41,Male,Pune,Diploma,,12.2,42336,,19,3,4,5,4.9,18,46,5,,Good,4.6,16
+12416,35,Female,Kolkata,Graduate,Finance,12,56624,14,291,1,3,4,3,26,158,9,5,Average,2.6,6
+12417,42,Male,Chennai,Graduate,Sales,8.3,83206,37,14,,4,1,3.6,28,,14,5,Good,5.6,22
+12418,48,Male,Hyderabad,Diploma,HR,6.6,62764,,61,0,5,1,2.1,,114,4,3,Excellent,5.2,22
+12419,,Male,Mumbai,Diploma,Finance,15.1,112325,39,203,0,5,1,4.7,36,96,3,1,Excellent,3.2,17
+12420,47,Male,Delhi,Post Graduate,Sales,13.8,63420,11,165,1,4,4,4.4,60,7,9,,Poor,2.2,16
+12421,,Female,Pune,Post Graduate,,6.1,122381,15,267,5,1,2,,46,45,10,3,Excellent,4.9,15
+12422,46,Male,Pune,Graduate,Sales,2.3,83671,2,257,2,1,4,4.8,19,129,4,3,,7.5,24
+12423,22,Male,Delhi,Post Graduate,HR,1.8,,,123,4,5,4,2.9,69,5,8,4,Poor,1.1,1
+12424,45,Male,Pune,Graduate,HR,2.1,44447,32,,0,3,3,4.1,48,,11,4,Average,6.4,
+12425,23,Male,Pune,Graduate,HR,10.7,38497,13,128,3,5,1,4.5,14,74,12,5,,4.3,20
+12426,28,Female,Chennai,Post Graduate,Analytics,1.4,97714,17,76,2,5,5,4.2,17,130,,2,Average,4.2,12
+12427,53,Male,Chennai,Graduate,HR,6.4,144892,15,172,2,4,2,4.8,37,54,5,5,,7.7,10
+12428,55,Male,Delhi,,HR,13.7,77870,33,288,0,1,5,4.6,21,84,14,,Excellent,4.8,23
+12429,26,Female,Kolkata,Diploma,HR,5.7,115847,16,40,4,4,3,5,75,101,10,,Excellent,6.6,0
+12430,43,Female,Mumbai,Graduate,Finance,13.9,114134,13,179,3,5,3,2.5,59,63,8,4,Excellent,4.1,22
+12431,,Female,Hyderabad,Diploma,HR,13.5,119110,22,203,4,2,2,2.9,65,78,11,3,Poor,2,2
+12432,39,Female,Hyderabad,Diploma,Analytics,4.8,89918,23,120,3,3,5,3.9,25,67,9,3,Average,5.6,17
+12433,25,Male,Kolkata,Post Graduate,Sales,13.3,,36,224,0,5,2,4.2,63,29,12,5,Average,7.4,20
+12434,31,Male,Pune,,Finance,13.6,89192,10,70,2,4,2,3.6,57,142,4,1,,6.7,3
+12435,32,Male,Mumbai,Graduate,IT,,84988,17,269,,2,1,2.2,2,81,11,,Poor,1.6,8
+12436,30,Female,Delhi,Graduate,HR,4.2,125739,30,138,2,2,5,4.5,,128,10,3,Excellent,2.5,
+12437,28,Male,Kolkata,Graduate,Sales,9.6,36706,13,123,1,5,1,4.9,18,133,5,5,Excellent,4.1,
+12438,44,Male,Delhi,Graduate,Sales,16.6,28219,30,126,1,1,1,3.2,9,103,14,5,,4.6,10
+12439,48,Male,Chennai,Diploma,Finance,,107017,30,91,0,2,1,,,,9,4,Poor,,
+12440,56,Male,Pune,Graduate,IT,3.5,52536,,293,,3,4,2.1,,153,11,,Excellent,1.8,18
+12441,57,Male,Bengaluru,,,12.4,89632,10,141,5,4,,2.7,57,42,3,4,Poor,6.1,
+12442,41,Female,Delhi,Graduate,Analytics,,126798,35,57,,4,3,4.1,5,5,4,2,,5.8,22
+12443,28,Male,Kolkata,,Operations,10.9,51937,2,,1,4,4,4.7,50,88,,5,Good,6.7,20
+12444,29,Female,Pune,,Sales,,,,55,,5,2,2.3,13,137,11,5,Poor,7.5,10
+12445,35,Female,Mumbai,Graduate,Operations,9.5,143312,,44,4,4,5,3.7,57,48,0,4,,2.5,13
+12446,38,Male,Kolkata,Graduate,,14.7,122894,39,254,0,4,5,4.1,7,61,0,3,Excellent,6.9,5
+12447,40,,Chennai,Post Graduate,Operations,13.1,135118,37,222,4,3,5,2.8,1,108,9,4,,5.3,18
+12448,26,Male,Hyderabad,Post Graduate,Sales,11.3,101325,,183,4,1,1,3.7,17,49,3,2,Poor,7.7,20
+12449,32,Male,Mumbai,Post Graduate,Sales,3.1,149195,25,43,1,5,5,4.1,56,64,12,3,,2.2,14
+12450,,Female,Delhi,Graduate,Finance,15.1,89445,34,187,5,5,5,4.5,34,70,,5,Average,2.2,10
+12451,27,Male,Delhi,Graduate,IT,16.9,49854,22,228,3,4,5,3.4,65,51,9,2,Excellent,5.6,17
+12452,36,Male,Mumbai,,,2.9,78796,38,168,1,3,3,4.2,55,119,2,2,Excellent,7.4,3
+12453,23,Male,Delhi,Diploma,,9,87432,14,238,,2,4,2.9,42,30,4,3,Poor,6.6,18
+12454,23,Female,Kolkata,Post Graduate,Analytics,,,39,197,1,4,2,2.6,72,,10,4,Average,5.8,2
+12455,47,Female,Pune,Post Graduate,HR,13.7,90575,,89,1,4,,2.6,71,55,9,4,Excellent,3.1,11
+12456,53,,,Post Graduate,Sales,13.1,128380,32,,1,5,5,3.1,7,98,7,1,Poor,,3
+12457,48,Female,Chennai,Graduate,Sales,3,42099,,177,0,5,2,2.1,,114,0,3,Good,6.4,23
+12458,21,Male,Pune,Graduate,Sales,15.8,,8,41,0,4,2,2.8,12,140,4,4,Average,6,11
+12459,28,Female,Kolkata,Graduate,Operations,3.7,33029,26,91,1,5,4,4,6,,13,2,Excellent,5.4,23
+12460,57,Male,Bengaluru,Post Graduate,Sales,14.5,,32,133,1,3,4,3.9,20,43,4,4,Good,0.4,0
+12461,52,Female,Delhi,Graduate,Sales,8.5,66106,11,198,4,2,4,2.2,36,72,1,4,,5.3,15
+12462,57,Female,,,Analytics,6.2,103662,1,47,3,2,4,2.9,44,44,12,2,Average,3.8,20
+12463,24,Male,Chennai,Post Graduate,IT,3.3,149432,15,163,4,2,1,,,40,4,3,Average,7.7,1
+12464,50,Female,Kolkata,Post Graduate,IT,,98882,4,109,5,4,,3,,153,7,1,,4.9,21
+12465,26,Female,Chennai,Post Graduate,HR,12.1,131858,4,233,3,4,3,3.3,61,101,9,4,,4.9,2
+12466,39,Male,Hyderabad,Diploma,Analytics,10.1,95656,28,,5,4,5,4.1,77,30,6,4,Good,8,15
+12467,52,Female,,Graduate,,2.6,68908,,268,3,3,1,2,50,108,11,,Excellent,0.7,9
+12468,,Male,Mumbai,,IT,,48579,,53,1,2,2,2.8,,107,1,3,Average,2.2,8
+12469,32,Female,,Post Graduate,,1.8,73178,23,127,4,5,4,2.4,55,,12,2,Good,5.2,13
+12470,31,Male,Mumbai,Post Graduate,Finance,13.5,131204,,29,,5,5,2.4,74,89,13,2,Excellent,,24
+12471,36,Male,Chennai,,Finance,13,113373,39,135,,,2,,33,117,5,2,Average,2.8,7
+12472,21,Female,Mumbai,Graduate,,,34265,39,228,3,,3,3.1,44,60,9,2,Poor,7.1,1
+12473,41,Female,Kolkata,PhD,Sales,10.3,81518,17,103,0,5,2,3.6,15,61,12,2,Poor,4.6,10
+12474,50,Female,Mumbai,Post Graduate,HR,2,138611,22,294,3,2,4,4.2,8,,10,2,Average,0.8,1
+12475,33,Male,Bengaluru,PhD,HR,16.3,133475,27,201,1,4,4,2.1,79,105,10,4,Poor,2.5,14
+12476,54,Female,Mumbai,Post Graduate,HR,,122968,,113,,5,3,2.7,,139,0,4,Excellent,0.6,17
+12477,24,Male,Delhi,Post Graduate,Operations,,129686,16,224,0,5,4,4.5,30,174,14,2,Average,4.4,4
+12478,48,Female,Hyderabad,Post Graduate,Finance,16.7,94377,3,268,2,1,1,4.6,12,145,9,2,Good,1.4,24
+12479,51,Male,Chennai,Post Graduate,Sales,14.7,109671,33,212,,2,5,3.1,4,88,9,,Poor,6.9,6
+12480,47,Male,Pune,Graduate,Finance,15,,2,86,2,5,3,3.1,46,166,2,3,Average,4.6,
+12481,25,Female,,Post Graduate,HR,10.5,139359,,29,,4,3,4.3,,104,,5,Excellent,0.5,18
+12482,45,Male,Bengaluru,Post Graduate,Sales,5.9,116844,27,190,2,4,2,2.9,17,50,10,4,Average,2.4,18
+12483,23,Male,Chennai,Graduate,Analytics,4.3,82927,15,12,4,3,,2.4,,65,5,2,Good,4.9,15
+12484,53,Male,Kolkata,Graduate,IT,6.2,91170,7,,1,4,5,2.8,1,60,13,,Good,2.7,18
+12485,24,Male,Chennai,Graduate,IT,11.5,94150,9,153,4,5,1,3.2,39,33,8,5,Average,4.1,16
+12486,45,Male,,Diploma,HR,3.5,42866,,102,2,5,2,2.2,29,,0,3,Average,7.3,12
+12487,40,Male,Kolkata,Graduate,Finance,5,28282,12,220,4,4,5,,9,96,11,5,Average,,7
+12488,54,Male,Hyderabad,Post Graduate,Analytics,8.7,33412,30,105,0,1,3,4.2,63,146,5,1,Average,2.7,10
+12489,46,Male,Hyderabad,Graduate,Sales,4.6,142135,20,222,2,2,4,3.5,41,106,,3,Excellent,,17
+12490,25,Female,Mumbai,Graduate,Finance,10.8,138019,20,263,,5,4,2.2,74,75,8,4,Average,2.6,10
+12491,55,Male,Kolkata,Post Graduate,HR,16.7,42583,27,15,4,4,5,3.3,52,17,12,3,,0.6,22
+12492,48,Female,Delhi,Graduate,Finance,13.6,79922,20,63,3,,,4.1,52,149,1,5,Average,1.4,8
+12493,49,Female,,Post Graduate,HR,12.2,24185,7,254,2,5,4,2.2,,161,11,2,Excellent,7.6,13
+12494,29,Male,Mumbai,Post Graduate,,10.7,104348,,144,5,3,5,2.2,15,85,2,5,Good,7.5,1
+12495,26,Female,Chennai,Post Graduate,IT,9,109368,8,42,0,2,2,3.1,47,104,11,5,Poor,1.8,16
+12496,39,Female,Hyderabad,Graduate,IT,3.8,35423,2,126,3,5,3,,60,87,1,2,Average,4.4,20
+12497,31,Other,Mumbai,PhD,Finance,16.2,69268,14,69,2,4,1,4.8,37,120,10,4,Average,,
+12498,22,Female,Bengaluru,Post Graduate,Analytics,4.8,130692,,150,3,3,,3.7,43,129,3,,Good,5.4,4
+12499,29,Male,Bengaluru,PhD,,2.1,113201,18,129,2,5,2,2.9,14,6,3,3,Poor,1.5,0
+12500,41,Female,Hyderabad,Post Graduate,HR,13.6,101744,18,,2,2,1,4.1,60,66,,5,Good,0.4,8
